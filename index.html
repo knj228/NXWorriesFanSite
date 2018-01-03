@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>NxWorries</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/one-page-wonder.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">NXW</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#about">NxWorries</a>
+                    </li>
+                    <li>
+                        <a href="#services">Anderson Paak</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Knxwledge</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+      <div class = "VidContain">
+       <div class="overlay"></div>
+      <video loop class="header-image" autoplay>
+        <source id="KNXVID" src="vid/NXVid.mp4" type="video/mp4">
+        </video>
+        </div>
+    </header>
+
+    <div id="contain" class="container">
+      <br><h1>The New Soul</h1>
+      <h2>The Talented, Soulful Duo NxWorries </h2>
+        <hr class="featurette-divider">
+
+        <div class="featurette" id="about">
+          <div id="CircleNx">
+            <img class="featurette-image img-circle img-responsive pull-right" src="img/nx.png">
+          </div>
+            <h2 class="featurette-heading">NxWorries
+                <span class="text-muted">brings out the soul from the souless </span>
+            </h2>
+            <p class="lead">NxWorries is a group that consists of Grammy nominated singer and musician, Anderson Paak and Grammy winning producer Knxwledge. I am horrible at describing music but I would say that NxWorries combines the old
+             soulful groove that existed in Soul music during the 60s with traditional yet experimental soul beats that are all unique in their own way. The two artists are both on the legendary indie rap and alternative music label Stones Throw which is how they are able to put so much content out together.</p>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="featurette" id="services">
+          <div id="CirclePaak">
+            <img class="featurette-image img-circle img-responsive pull-left"  id="paak"  src="img/Paak.jpg">
+
+          </div>
+            <h2 class="featurette-heading">Anderson Paak
+                <span class="text-muted">is one of a kind </span>
+            </h2>
+            <p class="lead">Anderson Paak is a raspy singer but in the best way possible. He has the rhythm and feel of an old soul singer but he is also capable of rapping and doing so seamlessly weaving in and out of both singing and rapping. Anderson Paak before he was famous used to work on a Weed Plantation and Bagged Grocceries at night in order to make ends meet.
+            At one time he was homeless and he definetly reflects on the struggle of trying to break through as an artist and also survive while persuing your dreams. That description may sound hokey but Anderson does it with honesty and beautful lyrics</p>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="featurette" id="contact">
+          <div id = "CircleKnx">
+            <img class="featurette-image img-circle img-responsive pull-right" id="knx"  src="img/knx.png">
+          </div>
+            <h2 class="featurette-heading">Knxwledge
+                <span class="text-muted">is behind the boards</span>
+            </h2>
+            <p class="lead">If it has not already been stated in music magazine and blogs I want you to know that Knxwledge is a wise man that must time travel in his spare time or is actually 100 years old. While I do not know which one of these scenarios Knxwledge falls under, I know that techniacally he is a 29 year old producer from New Jersey. Knxwledge's music is varied and hard to describe accurately but I would say
+            that he fuses classic hip hop drums and baselines with obscure samples from the golden age of soul but its deeper than that. Something about his music reminds you of a time not long ago but seems forever ago and at the same time his production also can sound like something that has never been done before. It was his expert level old school production level that earned him a grammy for producing the track "Momma" off of Kendrick Lamar's "To Pimp A Butterfly" LP </p>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <footer>
+          <h3> Here is a taste of NxWorries off of their new album "Yas Lawd"</h3>
+            <div class="row">
+                <div class="col-lg-12">
+                  <br><br><audio id="player" src="mp3/GetBigger.mp3" preload="auto"></audio>
+                    <br><h3>Song: Get Bigger/Do U Luv</h3>
+                </div>
+            </div>
+
+        </footer>
+
+    </div>
+    <script src="audiojs/audiojs/audio.min.js"></script>
+    <script>
+    audiojs.events.ready(function() {
+      var as = audiojs.createAll();
+    });
+  </script>
+    <script src="js/jquery.js"></script>
+    <script src="js/NX.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
